@@ -99,9 +99,6 @@ function scanQRCode() {
     // Set a timeout to enable scanning again after 2 seconds
     setTimeout(() => {
         scanning = true; 
-      
-        // Submit the form after the timeout completes
-        document.forms[0].submit();
     }, 2000);
 }
   }, 100);
